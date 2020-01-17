@@ -1,0 +1,12 @@
+{
+  "$id": "http://3d.adobe.com/schemas/sensei/poc/v1/subject.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the subject"
+    }
+  },
+  "required": ["name"]
+}
